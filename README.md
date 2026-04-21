@@ -2,6 +2,12 @@
 
 Retro-Amp est un lecteur audio web au look retro inspiré des players desktop, avec playlists persistées, égaliseur 10 bandes et visualiseur type Milkdrop dans le navigateur.
 
+## Aperçu
+
+![Capture d'écran de Retro-Amp](frontend/affichage.png)
+
+![Capture d'écran du visualiseur Milkdrop](frontend/milkdrop.png)
+
 Le projet est séparé en deux parties :
 
 - un backend FastAPI qui stocke les playlists, les métadonnées audio et les fichiers uploadés dans SQLite + système de fichiers ;
