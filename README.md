@@ -67,6 +67,28 @@ Le projet crée automatiquement :
 - les dépendances Python du backend ;
 - les dépendances Node du frontend dans `frontend/node_modules`.
 
+## Installer les dépendances
+
+Si tu veux installer les dépendances manuellement avant de lancer le projet, utilise les commandes suivantes.
+
+### Backend
+
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+```
+
+Les scripts `backend/run.sh`, `frontend/run.sh` et `./run.sh` refont automatiquement l'installation si nécessaire.
+
 ## Lancer le projet de A à Z
 
 ### Option rapide
